@@ -1,0 +1,23 @@
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+  color: blue;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  color: blue;
+  background-color: yellow;
+}
+.list li {
+  padding: 10px;
+}
+.list li:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}

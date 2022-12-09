@@ -1,0 +1,9 @@
+.banner_1 {
+  background-image: url(../public/autumn_banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+.main {
+  height: 60vh;
+}

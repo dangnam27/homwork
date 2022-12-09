@@ -1,0 +1,32 @@
+.toolBar_menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.toolBar_menu li {
+  background-color: gray;
+  width: 100%;
+  border-right: 2px solid rgba(255, 255, 255, 0.468);
+}
+.toolBar_menu li:last-child {
+  border-right: 0px;
+}
+.toolBar_menu li a:hover {
+  background-color: bisque;
+  color: darkblue;
+  transition: 0.4s;
+}
+
+.toolBar_menu li a {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.main {
+  text-align: center;
+}

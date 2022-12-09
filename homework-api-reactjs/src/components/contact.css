@@ -1,0 +1,37 @@
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(194, 189, 189);
+  object-fit: cover;
+}
+.avatar-thumbnail {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(194, 189, 189);
+  object-fit: cover;
+}
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Add Image";
+  color: white;
+  display: inline-block;
+  background: #397ef5;
+  border-radius: 3px;
+  padding: 5px 15px;
+  outline: none;
+  cursor: pointer;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
